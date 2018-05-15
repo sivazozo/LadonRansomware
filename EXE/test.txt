@@ -1,0 +1,106 @@
+
+	char GetProcAddressEncrypted[] = "STARTGetProcAddressEND";
+	char LoadLibraryWEncrypted[]= "STARTLoadLibraryWEND";
+	char LoadLibraryAEncrypted[]= "STARTLoadLibraryAEND";
+	char CreateFileWEncrypted[]= 	"STARTCreateFileWEND";
+	char IsDebuggerPresentEncrypted[]= 	"STARTIsDebuggerPresentEND";
+	char CloseHandleEncrypted[]= "STARTCloseHandleEND";
+	
+
+	char HeapAllocEncrypted[]= "STARTHeapAllocEND";
+	char HeapFreeEncrypted[]= "STARTHeapFreeEND";
+	char SleepEncrypted[]= "STARTSleepEND";
+	char TerminateProcessEncrypted[]= "STARTTerminateProcessEND";
+	char GetExitCodeProcessEncrypted[]= "STARTGetExitCodeProcessEND";
+	char GetCurrentThreadEncrypted[]= "STARTGetCurrentThreadEND";
+	char GetThreadContextEncrypted[]= "STARTGetThreadContextEND";
+	char CopyFileAEncrypted[]= "STARTCopyFileAEND";
+	char CopyFileWEncrypted[]= "STARTCopyFileWEND";
+	char CreateToolhelp32SnapshotEncrypted[] = "STARTCreateToolhelp32SnapshotEND";
+	char Process32FirstEncrypted[]= "STARTProcess32FirstEND";
+	
+	char Process32FirstWEncrypted[]= "STARTProcess32FirstWEND";
+
+	char Process32NextEncrypted[]= 	"STARTProcess32NextEND";
+	
+	char Process32NextWEncrypted[]="STARTProcess32NextWEND";
+	
+	char GetFileSizeExEncrypted[]= "STARTGetFileSizeExEND";
+	
+	char ReadFileEncrypted[]= "STARTReadFileEND";
+	 
+	char SetEndOfFileEncrypted[]= "STARTSetEndOfFileEND";
+	
+	char SetFilePointerEncrypted[]= "STARTSetFilePointerEND";
+
+	char SetFilePointerExEncrypted[]= 	"STARTSetFilePointerExEND";
+
+	char WriteFileEncrypted[]= 	"STARTWriteFileEND";
+	char GetLastErrorEncrypted[]= "STARTGetLastErrorEND";
+	char GetProcessHeapEncrypted[]= "STARTGetProcessHeapEND";
+	char LocalFreeEncrypted[]= "STARTLocalFreeEND";
+	char MoveFileAEncrypted[]= "STARTMoveFileAEND";
+	char MoveFileWEncrypted[]= "STARTMoveFileWEND";
+	char HeapReAllocEncrypted[]= "STARTHeapReAllocEND";
+	char FindCloseEncrypted[]= "STARTFindCloseEND";
+	char FindFirstFileAEncrypted[]= "STARTFindFirstFileAEND";
+	char FindFirstFileWEncrypted[]= "STARTFindFirstFileWEND";
+	char FindNextFileAEncrypted[]= "STARTFindNextFileAEND";
+	char FindNextFileWEncrypted[]= "STARTFindNextFileWEND";
+	char GetLogicalDriveStringsAEncrypted[]= "STARTGetLogicalDriveStringsAEND";
+	char GetLogicalDriveStringsWEncrypted[]= "STARTGetLogicalDriveStringsWEND";
+	char lstrcmpAEncrypted[]= "STARTlstrcmpAEND";
+	char lstrcmpWEncrypted[]= "STARTlstrcmpWEND";
+	char MultiByteToWideCharEncrypted[]= "STARTMultiByteToWideCharEND";
+	char ExitProcessEncrypted[]= "STARTExitProcessEND";
+	char GetUserDefaultLCIDEncrypted[]= "STARTGetUserDefaultLCIDEND";
+	char lstrlenAEncrypted[]= "STARTlstrlenAEND";
+	char lstrlenWEncrypted[]= "STARTlstrcmpWEND";
+	char CreateProcessAEncrypted[]= "STARTCreateProcessAEND";
+	char CreateProcessWEncrypted[]= "STARTCreateProcessWEND";
+	char WaitForSingleObjectEncrypted[]= "STARTWaitForSingleObjectEND";
+	char GetModuleFileNameAEncrypted[]= "STARTGetModuleFileNameAEND";
+	char GetModuleFileNameWEncrypted[]= "STARTGetModuleFileNameWEND";
+	char RegCreateKeyExAEncrypted[]= "STARTRegCreateKeyExAEND";
+	char RegCreateKeyExWEncrypted[]= "STARTRegCreateKeyExWEND";
+	char MessageBoxAEncrypted[]= "STARTMessageBoxAEND";
+	char MessageBoxWEncrypted[]= "STARTMessageBoxWEND";
+	char GetKeyboardLayoutEncrypted[]= "STARTGetKeyboardLayoutEND";
+	char SystemParametersInfoAEncrypted[]= "STARTSystemParametersInfoAEND";
+	char SystemParametersInfoWEncrypted[]= "STARTSystemParametersInfoWEND";
+	char wsprintfAEncrypted[]= "STARTwsprintfAEND";
+	char wsprintfWEncrypted[]= "STARTwsprintfWEND";
+	char SHGetFolderPathAEncrypted[]= "STARTSHGetFolderPathAEND";
+	char SHGetFolderPathWEncrypted[]= "STARTSHGetFolderPathWEND";
+	char CryptAcquireContextAEncrypted[]= "STARTCryptAcquireContextAEND";
+	char CryptAcquireContextWEncrypted[]= "STARTCryptAcquireContextWEND";
+	char CryptReleaseContextEncrypted[]= "STARTCryptReleaseContextEND";
+	char CryptGenKeyEncrypted[]= "STARTCryptGenKeyEND";
+	char RegDeleteKeyValueAEncrypted[]= "STARTRegDeleteKeyValueAEND";
+	char RegDeleteKeyValueWEncrypted[]= "STARTRegDeleteKeyValueWEND";
+	char RegSetValueExAEncrypted[]= "STARTRegSetValueExAEND";
+	char RegSetValueExWEncrypted[]= "STARTRegSetValueExWEND";
+	char RegCloseKeyEncrypted[]= "STARTRegCloseKeyEND";
+	char GetCurrentHwProfileAEncrypted[]= "STARTGetCurrentHwProfileAEND";
+	char GetCurrentHwProfileWEncrypted[]= "STARTGetCurrentHwProfileWEND";
+	char CryptDecryptEncrypted[]= "STARTCryptDecryptEND";
+	char CryptEncryptEncrypted[]= "STARTCryptEncryptEND";
+	char CryptImportKeyEncrypted[]= "STARTCryptImportKeyEND";
+	char CryptExportKeyEncrypted[]= "STARTCryptExportKeyEND";
+	char CryptDestroyKeyEncrypted[]= "STARTCryptDestroyKeyEND";
+	char InitiateSystemShutdownExAEncrypted[]= "STARTInitiateSystemShutdownExAEND";
+	char InitiateSystemShutdownExWEncrypted[]= "STARTInitiateSystemShutdownExWEND";
+	char CryptDecodeObjectExEncrypted[]= "STARTCryptDecodeObjectExEND";
+	char CryptImportPublicKeyInfoEncrypted[]= "STARTCryptImportPublicKeyInfoEND";
+	char CryptStringToBinaryAEncrypted[]= "STARTCryptStringToBinaryAEND";
+	char CryptStringToBinaryWEncrypted[]= "STARTCryptStringToBinaryWEND";
+	char PathFindExtensionAEncrypted[]= "STARTPathFindExtensionAEND";
+	char PathFindExtensionWEncrypted[]= "STARTPathFindExtensionWEND";
+	char InternetSetCookieAEncrypted[]= "STARTInternetSetCookieAEND";
+	char InternetSetCookieWEncrypted[]= "STARTInternetSetCookieWEND";
+	char InternetReadFileEncrypted[]= "STARTInternetReadFileEND";
+	char InternetOpenUrlAEncrypted[]= "STARTInternetOpenUrlAEND";
+	char InternetOpenUrlWEncrypted[]= "STARTInternetOpenUrlWEND";
+	char InternetCloseHandleEncrypted[]= "STARTInternetCloseHandleEND";
+	char InternetOpenAEncrypted[]= "STARTInternetOpenAEND";
+	char InternetOpenWEncrypted[]= "STARTInternetOpenWEND";
