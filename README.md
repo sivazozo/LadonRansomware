@@ -13,3 +13,12 @@ http://krebsonsecurity.com/
 
 
 This was written while looking at his picture on my desk.
+
+
+Like our work?
+
+
+Want to donate:
+
+3LcaAYVEQzboDLaZDnZcx6wkBEe3SyDcEd
+
